@@ -1,4 +1,4 @@
-import { MapContainer, TileLayer, Polyline } from 'react-leaflet';
+import { MapContainer, TileLayer, Polyline, Circle, CircleMarker } from 'react-leaflet';
 import { Component } from 'react';
 
   class GPS extends Component {
@@ -43,8 +43,17 @@ import { Component } from 'react';
                     url="https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png"
                     />
                     <Polyline positions={this.props.data} />
-                    {/* <CircleMarker center={[this.state.container_lat, this.state.container_long]} fillOpacity="1" pathOptions={fillRedOptions}  color="#FF5252" radius={5} />
-                    <CircleMarker center={[this.state.payload_lat, this.state.payload_long]} fillOpacity="1" pathOptions={fillBlueOptions} color="#96A0FF" radius={5} /> */}
+                    {
+                        this.props.data.map((center)=>(
+                            <CircleMarker
+                            fillOpacity={1}
+                            color="FF0000"
+                                center={center}
+                                pathOptions={{ fillColor: '#FF0000' }}
+                                radius={3}>
+                            </CircleMarker>
+                        ))
+                    }
                 </MapContainer>
             </div>
         );
