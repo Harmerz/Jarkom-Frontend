@@ -3,28 +3,6 @@ import { Component } from 'react';
 
   class GPS extends Component {
 
-
-    constructor (props) {
-    super(props);
-    this.state = {
-        lat : 108,
-    }
-    }
-
-
-    componentDidMount() {
-    setInterval(
-        () => this.tick(),
-        1000
-    );
-    }
-
-    tick() {
-        this.setState({
-            lat : this.state.lat+0.0001,
-        })
-    }
-    
     render(){
     // console.log([this.state.container_zoom]);
         return (

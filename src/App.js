@@ -97,7 +97,7 @@ function App() {
               filterOption={(input, option) => option.children.toLowerCase().includes(input.toLowerCase())}
             >
               {
-                kota.map((data)=><Option value={data} key={data}>{data}</Option>)
+                [...kota].map((data)=>(<Option value={data} key={data}>{data}</Option>))
               }
             </Select>
             </div>
@@ -114,7 +114,7 @@ function App() {
               filterOption={(input, option) => option.children.toLowerCase().includes(input.toLowerCase())}
             >
               {
-                kota.map((data)=><Option value={data} key={data}>{data}</Option>)
+                [...kota].map((data)=>(<Option value={data} key={data}>{data}</Option>))
               }
             </Select>
             </div>
