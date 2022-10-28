@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "./static/css/main.0e0816ee.css",
-    "main.js": "./static/js/main.82e13a4a.js",
-    "static/js/787.a6fb07de.chunk.js": "./static/js/787.a6fb07de.chunk.js",
-    "index.html": "./index.html",
-    "main.0e0816ee.css.map": "./static/css/main.0e0816ee.css.map",
-    "main.82e13a4a.js.map": "./static/js/main.82e13a4a.js.map",
-    "787.a6fb07de.chunk.js.map": "./static/js/787.a6fb07de.chunk.js.map"
+    "main.css": "/Jarkom-Frontend/static/css/main.0e0816ee.css",
+    "main.js": "/Jarkom-Frontend/static/js/main.9af09919.js",
+    "static/js/787.a6fb07de.chunk.js": "/Jarkom-Frontend/static/js/787.a6fb07de.chunk.js",
+    "index.html": "/Jarkom-Frontend/index.html",
+    "main.0e0816ee.css.map": "/Jarkom-Frontend/static/css/main.0e0816ee.css.map",
+    "main.9af09919.js.map": "/Jarkom-Frontend/static/js/main.9af09919.js.map",
+    "787.a6fb07de.chunk.js.map": "/Jarkom-Frontend/static/js/787.a6fb07de.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.0e0816ee.css",
-    "static/js/main.82e13a4a.js"
+    "static/js/main.9af09919.js"
   ]
 }
