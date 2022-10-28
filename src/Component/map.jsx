@@ -1,4 +1,4 @@
-import { MapContainer, TileLayer, Polyline, Circle, CircleMarker } from 'react-leaflet';
+import { MapContainer, TileLayer, Polyline, CircleMarker } from 'react-leaflet';
 import { Component } from 'react';
 
   class GPS extends Component {

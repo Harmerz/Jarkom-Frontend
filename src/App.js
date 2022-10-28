@@ -17,7 +17,6 @@ function App() {
   const [ kota, setKota ] = useState([])
 
   const Jarak = async () => {
-    console.log("click")
 
       axios({
         method: "GET",
@@ -75,8 +74,6 @@ function App() {
           }
       })}
     ,[]);
-
-  console.log(data);
     return (
       <div className="App">
         <div>
